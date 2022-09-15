@@ -1,0 +1,24 @@
+Built on top of Plotly.js, React, and Flask, Dash ties modern UI elements like dropdowns, sliders and graphs directly to your analytical python code.
+
+Dash apps consist of a Flask server that communicates with front-end React components using JSON packets over HTTP requests.
+
+dash core components - dropdown, check box, sliders , date picker etc.
+
+dash html components - div, heading , paragraph
+
+plotly graph objects as json package
+
+callback decorators are the heart of dash apps which provide interactivity
+
+decorators give additional functionality to the existing functions without making any changes to it
+
+change in inputs in web browser , triggers callbacks .
+
+multi page apps can be created using dash.register_pages and dash.page_containers
+
+dashtools can be used to deploy  dash apps to python anywhere or heroku .
+
+dashtools make deployment very simple.
+
+callback function uses id to map input and output objects.
+
