@@ -22,3 +22,5 @@ dashtools make deployment very simple.
 
 callback function uses id to map input and output objects.
 
+client side callback copies and stores data,  runs javascript in the browser rather in th eserrver to speed up the process.
+
